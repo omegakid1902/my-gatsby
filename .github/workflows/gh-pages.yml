@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.gatsby_secret }}
+          access-token: ${{ secrets.GATSBY_SECRET }}
           deploy-branch: gh-pages
           git-config-name: 'github-actions[bot]'
           git-config-email: 'github-actions[bot]@users.noreply.github.com'
